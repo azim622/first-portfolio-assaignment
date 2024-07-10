@@ -164,3 +164,36 @@ button{
     letter-spacing: 0%;
     text-align: center;
 }
+/* inspriration styles */
+.insp-container{
+    width: 1140px;
+    height: 805px;
+    margin-left: 115px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.insp-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+.insp-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 30px 140px;
+    opacity: 0.7;
+
+}
+.running-video{
+    border-radius: 16px;
+    height: 550px;
+    width: 1000px;
+}
