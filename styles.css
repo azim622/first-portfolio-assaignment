@@ -197,3 +197,148 @@ button{
     height: 550px;
     width: 1000px;
 }
+/* target related styles */
+.about-target{
+    width: 1140px;
+    height: 522px;
+    margin-left: 115px;
+    margin-top: 40px;
+}
+.terget-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.target-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+.terget-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+    opacity: 0.7;
+
+}
+/* skill related styles */
+.skill{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1140px;
+    height: 300px;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+.skill-tag{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    margin-top: 120px;
+}
+.html{
+   background: rgba(255, 76, 30, 0.05);
+}
+.css{
+   background: rgba(0, 76, 232, 0.05);
+}
+.java-script{
+   background: rgba(255, 223, 0, 0.05);
+}
+.skill-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 15px;
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+margin-bottom: 20px;
+}
+a{
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Next target styles */
+.next-terget{
+    width: 1140px;
+    height: 935px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0px;
+    margin-left: 115px;
+}
+.intro-div{
+    width: 946px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 48px 0px;
+}
+.next-heading{
+    width: 852px;
+    height: 39px;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+.next-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+.descrip-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: ;
+    padding: 40px;
+    gap: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+}
+.descrip-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 15px;
+
+}
+.descrip-description{
+    font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     text-align: left;
+     opacity: 0.7;
+     margin-bottom: 20px;
+}
