@@ -76,3 +76,91 @@ button{
     background-color: rgb(13, 19, 33);
     text-decoration: none;
 }
+/* importence of dev */
+.important-dev{
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 115px;
+    margin-top: 40px;
+    padding: 80px 97px 80px 97px;
+    gap: 90px;
+}
+.dev-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dev-title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+.dev-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+}
+.about-dev{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px;
+
+}
+.first-tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0px;
+    gap: 80px;
+}
+.first-dev{
+    width: 600px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.dav-title-1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(13, 19, 33, 0.7);
+}
+.dev-description-1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    opacity: 0.7;
+
+}
+.dev-button{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
