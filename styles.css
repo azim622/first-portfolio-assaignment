@@ -23,8 +23,6 @@
 
 }
 button{
-    /* height: 38px;
-    width: 1040px; */
     border-radius: 8px;
     color:#0D1321;
     margin-top: 50px;
@@ -120,8 +118,7 @@ button{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 48px;
-
+    padding: 0 48px;
 }
 .first-tag{
     display: flex;
@@ -358,6 +355,8 @@ a{
     background-position: center;
     padding: 48px;
     line-height: 50px;
+    background-color:#383838;
+    background-blend-mode: overlay;
 }
 .footer-title{
     color: rgb(255, 255, 255);
